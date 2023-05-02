@@ -1,17 +1,12 @@
 import { HeadFC, PageProps, Script } from "gatsby";
 import React, { useState, useEffect } from "react";
 import ArtList from "../components/ArtList";
-import Filter from "../components/FilterGroup";
-import Headline from "../components/Headline";
 import Hero from "../components/Hero";
-import "./Index.css";
+import "./index.css";
 
 import { dataItem } from "../interfaces";
-//import { database } from '../firebase';
-import firebase from "gatsby-plugin-firebase";
 import { getDatabase, ref, child, get } from "firebase/database";
 import { database } from "../firebase";
-import Navbar from "../components/Navbar";
 import PageLayout from "../components/PageLayout";
 
 const IndexPage: React.FC<PageProps> = () => {
