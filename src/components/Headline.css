@@ -1,0 +1,12 @@
+.headline-text {
+    font-size: 14px;
+    border-bottom: 1px solid #484747; 
+    line-height: 0.1em;
+    margin: 10px 0 20px; 
+    padding-left: 5%;
+    color: #484747;
+ } 
+ .headline-text span { 
+     background:#fff; 
+     padding:0 10px; 
+ }

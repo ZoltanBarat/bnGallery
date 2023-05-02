@@ -1,0 +1,23 @@
+.footer-container {
+    background: #000000;
+    text-align: center;
+    padding: 20px;
+    margin-top: 3%;
+}
+
+.instagram-icon {
+    fill: #ffffff;
+}
+
+.footer-container > * {
+    padding: 15px;
+}
+
+.footer-title,.footer-copyright {
+    color: #ffffff;
+}
+
+.footer-copyright {
+    opacity: 0.5;
+}
+

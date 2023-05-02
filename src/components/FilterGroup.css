@@ -1,0 +1,53 @@
+/* @media screen and (max-width: 1600px) {
+    .filter-group {
+        width: 10%; 
+    }
+}
+ */
+ .mobile-filter-button {
+    display: none;
+}
+
+.filter-group {
+    width: 15%;
+    padding: 2%;
+    padding-left: 35px;
+    display: block;
+    max-width: 250px;
+}
+
+ @media screen and (max-width: 500px) {
+    .filter-group {
+        padding: 2%;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;       
+    }
+
+    .mobile-filter-group-wrapper{
+        overflow: hidden;
+        width: 100%;
+        max-height: 0px;
+        padding: 0;
+        transition: max-height 0.15s ease-out;
+    }
+    
+    .hide-mobile-filter-group-wrapper {
+        max-height: 500px;
+        transition: max-height 0.25s ease-in;
+    }
+
+    .mobile-filter-button {
+        display: block;
+    }
+}
+
+.mobile-filter-button {
+    width: 100%;
+    background: none;
+    border: none;
+    font-size: 18px;
+    margin: 10px 0;
+    font-family: inherit;
+    color: inherit;
+}
