@@ -13,7 +13,7 @@ const ContactPage = () => {
           {formSent ? (
             <div className="contact-form-success-text"><p>Thank you! ✉</p></div>
           ) : (
-            <form className="contact-form" name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field" onSubmit={() => setFormSent(true)}>
+            <form className="contact-form" action="/" name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field" onSubmit={() => setFormSent(true)}>
               <input type="hidden" name="form-name" value="contact" />
 
               <label htmlFor="name">Your Name</label>
