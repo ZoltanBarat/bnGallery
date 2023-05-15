@@ -18,7 +18,7 @@ export default function Painting({ item }: { item: dataItem }) {
           <span></span>
           <span></span>
           <span></span>
-          <img className="art-card-image image-shadow" src={item.image} alt="A painting made by Nikolett Bohus" />
+          <img className="art-card-image image-shadow" src={item.small} alt="A painting made by Nikolett Bohus" />
           <div className="art-card-text-container">
             <h3 className="art-card-text-title">{item.name}</h3>
             <p className="art-card-text-date">{item.date}</p>

@@ -9,6 +9,11 @@ img.hero-img {
   height: auto;
 }
 
+@media screen and (max-width: 500px) {
+  img.hero-img {
+    max-height: 200px;
+  }  
+}
 
 /* .hero-container {
     display: grid;

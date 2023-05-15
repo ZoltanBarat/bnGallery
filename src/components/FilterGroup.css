@@ -19,16 +19,16 @@
  @media screen and (max-width: 500px) {
     .filter-group {
         padding: 2%;
-        width: 100%;
         display: grid;
-        grid-template-columns: 1fr 1fr;       
+        grid-template-columns: 1fr 1fr;  
+        gap: 20px;     
     }
 
     .mobile-filter-group-wrapper{
         overflow: hidden;
-        width: 100%;
+        min-width: 80%;
         max-height: 0px;
-        padding: 0;
+        padding: 0 5%;
         transition: max-height 0.15s ease-out;
     }
     

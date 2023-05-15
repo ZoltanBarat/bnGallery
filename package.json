@@ -18,11 +18,13 @@
     "@types/react-transition-group": "^4.4.5",
     "firebase": "^9.17.2",
     "gatsby": "^5.7.0",
+    "gatsby-omni-font-loader": "^2.0.2",
     "gatsby-plugin-firebase": "^0.2.0-beta.4",
     "gatsby-plugin-manifest": "^5.7.0",
     "gatsby-plugin-netlify": "^5.1.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-helmet": "^6.1.0",
     "react-transition-group": "^4.4.5"
   },
   "devDependencies": {

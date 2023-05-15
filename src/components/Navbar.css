@@ -61,3 +61,10 @@
     transform-origin: left;
     transform: scaleX(1);
 }
+
+@media screen and (max-width: 500px) {
+   .navbar-container-right {
+        display: flex;
+        justify-content: center;
+   }
+}

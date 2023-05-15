@@ -9,6 +9,7 @@ export interface dataItem {
   date: string;
   base: string;
   frame: string;
+  small: string;
 }
 
 export interface PageLayoutInterface {

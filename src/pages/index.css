@@ -42,22 +42,15 @@ table {
 }
 /*-------------------------------*/
 
-@import url('https://fonts.googleapis.com/css?family=Roboto');
-
 html {
-  font-family: 'Roboto', sans-serif;
-}
-
-
-html {
+	font-family: "Rubik";
 	height: 100%;
 }
 
 body {
     overflow-x: hidden;
-	min-height: 100%;
+	min-height: 100%;	
 }
-
 
 .main {
     border-top: 2px solid #f9cc81;

@@ -24,7 +24,7 @@
 .active-filter:after {
     content: "";
     position: absolute;
-    width: 100%;
+    width: 60%;
     height: 120%;
     background: url('../../static/bluebrush2.png');
     background-repeat: no-repeat;
