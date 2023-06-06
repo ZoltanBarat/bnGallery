@@ -11,10 +11,6 @@ import { Script, withPrefix } from "gatsby";
 } */
 
 export default function Hero({ originalArray, index, setIndex }: { originalArray: dataItem[] | undefined; index: any; setIndex: any }) {
-
-  
-  
-  console.log(background)
  
   /* const [randomItem, setRandomItem] = useState({ name: "", image: "", date: "" });
   const [inProp, setInProp] = useState(false);

@@ -23,7 +23,7 @@ const IndexPage: React.FC<PageProps> = () => {
     get(child(dbRef, `paints/`))
       .then((snapshot) => {
         if (snapshot.exists()) {
-          console.log(snapshot.val());
+          //console.log(snapshot.val());
           setOriginalArray(snapshot.val());
           setFilteredData(snapshot.val());
          

@@ -4,13 +4,8 @@ require("dotenv").config({
   path: '.env',
 })
 
-const config: GatsbyConfig = {
-  siteMetadata: {
-    siteUrl: `https://www.yourdomain.tld`,
-    title: `BN Gallery`,
-    description: `Gallery for Nikolett Bohus' paintings`,
-    image: `src/images/icon.png`,
-  },
+module.exports = {
+
   // More easily incorporate content into your pages through automatic TypeScript type generation and better GraphQL IntelliSense.
   // If you use VSCode you can also use the GraphQL plugin
   // Learn more at: https://gatsby.dev/graphql-typegen
@@ -43,7 +38,24 @@ const config: GatsbyConfig = {
         ],
       },
     },
-    ],
+    {
+      resolve: `gatsby-plugin-google-gtag`,
+      options: {
+        trackingIds: [
+          "G-8NP6PH25Y3",
+        ],
+        pluginConfig: {
+          head: false,
+        },
+      },
+    },
+    {
+      resolve: 'gatsby-plugin-html-attributes',
+      options: {
+        lang: 'en'
+      }
+    }
+  ],
 }
 
-export default config
+

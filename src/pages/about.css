@@ -1,8 +1,17 @@
 .about-wrapper {
     width: 100vw;
-    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
     overflow: hidden;
+}
+
+.about-text {
+    max-width: 500px;
+    line-height: 1.5rem;
+    margin: 10%;
+}
+
+.about-text h1{
+    margin-bottom: 15px;
 }

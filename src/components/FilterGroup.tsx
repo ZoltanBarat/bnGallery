@@ -12,25 +12,25 @@ export default function FilterGroup({ setFilteredData, filteredData, originalArr
 
   useEffect(() => {
     typeFiltering(originalArray);
-    console.log("useeffect");
+
   }, [typeFilter, sizeFilter, baseFilter, frameFilter]);
 
   function typeFiltering(Data: dataItem[]) {
     let newArray = Data;
     if (typeFilter != "all") {
-      console.log("in fliter type");
+     
       newArray = Data.filter((item) => item.type === typeFilter);
     }
     if (sizeFilter != "all") {
-      console.log("in fliter size");
+     
       newArray = newArray.filter((item) => item.size === sizeFilter);
     }
     if (baseFilter != "all") {
-      console.log("in fliter size");
+     
       newArray = newArray.filter((item) => item.base === baseFilter);
     }
     if (frameFilter != "all") {
-      console.log("in fliter size");
+     
       newArray = newArray.filter((item) => item.frame === frameFilter);
     }
     setFilteredData(newArray);
