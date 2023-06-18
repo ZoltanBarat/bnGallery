@@ -14,9 +14,17 @@ export default function ArtList({
   originalArray: dataItem[] | undefined;
 }) {
   return (
-    <div className="art-list">
-      <FilterGroup setFilteredData={setFilteredData} filteredData={filteredData} originalArray={originalArray} />
-      {filteredData && filteredData.map((item, index) => <Painting key={index} item={item} />)}
-    </div>
+    <>
+      {filteredData ? (
+        <div className="art-list">
+          <FilterGroup setFilteredData={setFilteredData} filteredData={filteredData} originalArray={originalArray} />
+          {filteredData && filteredData.map((item, index) => <Painting key={index} item={item} />)}
+        </div>
+      ) : (
+        <div className="loader-container">
+          <span className="loader"></span>
+        </div>
+      )}
+    </>
   );
 }

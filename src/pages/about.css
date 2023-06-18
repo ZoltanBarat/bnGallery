@@ -1,5 +1,4 @@
 .about-wrapper {
-    width: 100vw;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -12,6 +11,6 @@
     margin: 10%;
 }
 
-.about-text h1{
+.about-text h1 {
     margin-bottom: 15px;
 }
