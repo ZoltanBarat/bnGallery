@@ -54,8 +54,15 @@ module.exports = {
       options: {
         lang: 'en'
       }
+    },
+    {
+      resolve: 'gatsby-plugin-google-analytics',
+      options: {
+        trackingId: 'wMX8HYLtCyBBO3TEowq5-Ha0MYE5BfPMwORm98ysWcY'
+      }
     }
   ],
 }
+
 
 
