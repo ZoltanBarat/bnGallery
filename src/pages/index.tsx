@@ -58,7 +58,7 @@ export const Head: HeadFC = () => (
     <title>Home Page</title>
     <meta
       name="google-site-verification"
-      content="2HG4kAwkdwGxMuc0RZSwRMGsNR_I-x2SaZPLHI-I_Kw"
+      content="wMX8HYLtCyBBO3TEowq5-Ha0MYE5BfPMwORm98ysWcY"
     />
   </>
 );
