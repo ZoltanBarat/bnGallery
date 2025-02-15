@@ -2,4 +2,5 @@ BN Gallery - Gatsby project
 
 ## Develop
 
-gatsby develop
+npm i
+npm start

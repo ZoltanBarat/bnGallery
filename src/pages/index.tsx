@@ -26,9 +26,7 @@ const IndexPage: React.FC<PageProps> = () => {
           //console.log(snapshot.val());
           setOriginalArray(snapshot.val());
           setFilteredData(snapshot.val());
-         
         } else {
-
           alert("No data available");
         }
       })
@@ -43,7 +41,11 @@ const IndexPage: React.FC<PageProps> = () => {
         <Hero originalArray={originalArray} index={index} setIndex={setIndex} />
       </section>
       <main className="main">
-        <ArtList setFilteredData={setFilteredData} filteredData={filteredData} originalArray={originalArray} />
+        <ArtList
+          setFilteredData={setFilteredData}
+          filteredData={filteredData}
+          originalArray={originalArray}
+        />
       </main>
     </PageLayout>
   );
@@ -51,4 +53,12 @@ const IndexPage: React.FC<PageProps> = () => {
 
 export default IndexPage;
 
-export const Head: HeadFC = () => <title>Home Page</title>;
+export const Head: HeadFC = () => (
+  <>
+    <title>Home Page</title>
+    <meta
+      name="google-site-verification"
+      content="2HG4kAwkdwGxMuc0RZSwRMGsNR_I-x2SaZPLHI-I_Kw"
+    />
+  </>
+);
